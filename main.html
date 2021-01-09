@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Digital Marketing Course</title>  
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+    <style>
+        body{
+            font-family: 'Vollkorn', sans-serif;
+    position: relative;
+        }
+        /* body:
+        give the bosy relative position for scrollspy
+        -add a font family to the whole page
+        
+        video:
+        -set the video in background fixed
+        -make sure it appears behind all components
+        -make it spread around the whole webpage
+    
+        video doesn't work for small devices so put a fixed full spread picture.*/
+        video#bgv{
+            position:fixed;
+            min-height:100px;
+            min-width:100%;
+            z-index: -100;
+        }
+        
+        
+        #home{
+            background-color:transparent;
+            color:white;
+            text-align:center;
+          padding-top:15%;
+            
+            
+ }
+        
+        #home h1{
+            margin-bottom:30px;
+        }
+        #home h2{
+            margin-bottom:50px;
+        }
+       #home .btn{
+            background-color:rgba( 33, 41, 114, 0.75 );
+           color:white;
+           font-size:23px;
+           text-align: center;
+           border-radius:20px;
+           border-bottom:1px solid rgba( 25, 26, 61, 0.705 );
+        }
+        #home .btn:hover, #home .btn:active{
+            background-color:rgba( 50, 50, 72, 0.705 );
+           color:wheat;
+           font-size:23px;
+           text-align: center;
+           border-radius:20px;
+           border-bottom:1px solid rgba( 23, 23, 42, 0.705 );
+            cursor:pointer;
+            padding: 8px 20px;
+            
+        }
+        .container{
+            max-width: 1000px;
+        }
+        
+        #about{
+            color:white;
+            text-align: center;
+            padding-top: 190px;
+        }
+        #about h2{
+            font-weight:bold;
+        }
+        #about p{
+            font-size:17px;
+            margin-bottom:30px;
+        }
+        .navbar-inverse{
+            font-size:17px;
+             
+            background: rgba( 10, 10, 10, 0.503 );
+            
+        
+        }
+        .navbar-inverse .navbar-brand{
+            color:white;
+        }
+       .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus{
+            color:white;
+        }
+        
+        .imgg{
+            height: 120px;
+        }
+        
+        #promise{
+            
+            padding-top: 270px;
+           
+            
+        }
+        #caro{
+            width:50%;
+            margin:0 auto;
+           
+           
+        }
+        .carousel-inner item img{
+            height:400px;
+            margin:0 auto;
+        }
+        
+        .carousel-caption{
+            position:relative;
+            left: auto;
+            right:  auto;
+            height: 200px;
+        }
+        @media (max-width:768px){
+    .carousel-inner .item img{
+        height: 300px;   
+    }
+    .carousel-inner h2{
+        font-size: 23px;   
+    }
+}
+@media (max-width:400px){
+    .carousel-inner .item img{
+        height: 200px;   
+    }
+    .carousel-inner h2{
+        font-size: 17px;   
+    }
+    .navbar-brand{
+        font-size: 12px;   
+    }
+}
+        .footer{
+            color:white;
+            text-align: center;
+            font-family: bold;
+            font-size:10px;
+            background-color: rgba(0,0,0,0.5);
+           padding-top: 2px;
+        }
+        
+        
+        
+    </style>
+</head>
+<body data-spy="scroll" data-target="#mynva">
+     <video autoplay loop muted id="bgv">
+         <source src ="Rain.mp4" type="video/mp4">
+             </video>
+         
+         <nav class= "navbar navbar-inverse  navbar-fixed-top" id="mynva">
+         <div class="container-fluid">
+             <div class="navbar-header">
+                 <a class="navbar-brand" href=#>Digital Marketing Course</a>
+                 <button type="button" class="navbar-toggle" data-target="#navcol" data-toggle="collapse">
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 
+                 
+                 </button>
+                    </div>
+                 
+                 
+                 <div class="navbar-collapse collapse" id="navcol">
+                     <ul class="nav navbar-nav navbar-right ">
+                     
+                     <li class="active"><a href="#home">Home</a></li>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#promise">Our Promise</a></li>
+                     
+                     </ul>
+                 
+                 
+                 
+                 
+                 </div>
+             
+             
+             
+             
+          
+             
+             
+             
+             </div>
+         
+         
+         
+         </nav>
+         
+    <div class="jumbotron" id="home">
+    <div class="container">
+        <h1>Complete Digital Marketing Course</h1>
+        <h2>Go from Zero-skills to Cash-Earning Marketing Skills</h2>
+        
+        <p><a class="btn" href="#">Join Us Now!!!</a></p>
+        
+        
+        </div>
+    
+    
+    
+    </div>
+    
+    <div id="about">
+    <div class="container">
+        <div class="col-md-4">
+        
+        <img src=" bbb.png" class="imgg">
+            <h2>High Quality Lectures</h2>
+            <p>All lectures have been very well prepared for the best learning experience of future digital marketers.</p>
+            
+        </div>
+        
+        <div class="col-md-4">
+        
+        <img src=" aaa.png" class="imgg">
+            <h2>+80H of Rich Content</h2>
+            <p>Learn all major digital marketing technologies and strategies.</p>
+            
+        </div>
+        <div class="col-md-4">
+        
+        <img src="cc.png" class="imgg">
+            <h2>Get Help Anytime!</h2>
+            <p>Post your questions in the forums of the course where myself and thousands of students are happy to help!</p>
+            
+        </div>
+        
+        
+        </div>
+    
+    
+    
+    </div>
+    
+    <div id="promise" class="container-fluid">
+        
+    <div class="carousel slide" id="caro" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#caro" data-slide-to="0" class="active"></li>
+              <li data-target="#caro" data-slide-to="1"></li>
+            <li data-target="#caro" data-slide-to="2"></li>
+        
+        
+        
+        </ol>
+        <div class="carousel-inner">
+        
+        <div class="item active">
+            
+            <img src="lecture.jpg">
+            <div class="carousel-caption">
+            <h2>Crystal Clear and Engaging 100% Hands-on Lectures</h2>
+            </div>
+            
+            </div>
+            
+            <div class="item">
+            
+            <img src="puzzle.jpg">
+            <div class="carousel-caption">
+            <h2>Full curriculum including all major Technologies</h2>
+            </div>
+            
+            </div>
+            <div class="item">
+                      <img src="ques.jpg">
+                      <div class="carousel-caption">
+                          <h2>Start from Zero-Skills! No prior Knowledge Required!</h2>
+                      </div>
+                  </div>
+        
+        
+        </div>
+        
+       
+        <a class="left carousel-control" href="#caro" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+    <a class="right carousel-control" href="#caro" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+         </div>
+    
+    
+    </div>
+    <div class="footer">
+    <h2>&copy; Digital Marketing Course </h2>
+    </div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+    <script>
+    $(function(){
+        $(".carousel").carousel({
+            interval: 500
+            
+        });
+        
+        
+    });
+    
+    
+    
+    </script>
+    </body>
+
+
+
+</html>
